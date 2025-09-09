@@ -2,7 +2,7 @@ package org.example;
 
 public class Line {
     //a Line is the three cells that constitute a win state
-    private Cell one, two, three;
+    private final Cell one, two, three;
 
     Line(Cell a, Cell b, Cell c){
         this.one = a;
